@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/zk2401/react-native-audio-streamer/master/package.json",
+          "gitUrl": "git://github.com/zk2401/react-native-audio-streamer.git",
+          "httpsUrl": "git+https://github.com/zk2401/react-native-audio-streamer.git",
+          "shortcut": "github:zk2401/react-native-audio-streamer",
+          "ssh": "git@github.com:zk2401/react-native-audio-streamer.git",
+          "sshUrl": "git+ssh://git@github.com/zk2401/react-native-audio-streamer.git",
+          "type": "github"
+        },
+        "name": "react-native-audio-streamer",
+        "raw": "react-native-audio-streamer@git+https://github.com/zk2401/react-native-audio-streamer.git",
+        "rawSpec": "git+https://github.com/zk2401/react-native-audio-streamer.git",
+        "scope": null,
+        "spec": "git+https://github.com/zk2401/react-native-audio-streamer.git",
+        "type": "hosted"
+      },
+      "/Users/zk/reactNativeProject/learn-app"
+    ],
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/zk2401/react-native-audio-steamer-exo-V1/master/package.json",
+          "gitUrl": "git://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+          "httpsUrl": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+          "shortcut": "github:zk2401/react-native-audio-steamer-exo-V1",
+          "ssh": "git@github.com:zk2401/react-native-audio-steamer-exo-V1.git",
+          "sshUrl": "git+ssh://git@github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+          "type": "github"
+        },
+        "name": "react-native-audio-streamer",
+        "raw": "react-native-audio-streamer@git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+        "rawSpec": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+        "scope": null,
+        "spec": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+        "type": "hosted"
+      },
+      "/Users/zk/reactNativeProject/learn-app"
+    ]
+  ],
+  "_from": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+  "_id": "react-native-audio-streamer@0.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-audio-streamer",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/zk2401/react-native-audio-steamer-exo-V1/master/package.json",
+      "gitUrl": "git://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+      "httpsUrl": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+      "shortcut": "github:zk2401/react-native-audio-steamer-exo-V1",
+      "ssh": "git@github.com:zk2401/react-native-audio-steamer-exo-V1.git",
+      "sshUrl": "git+ssh://git@github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+      "type": "github"
+    },
+    "name": "react-native-audio-streamer",
+    "raw": "react-native-audio-streamer@git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+    "rawSpec": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+    "scope": null,
+    "spec": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git#9185344c9df425c0303d7f142a1521f110907f3f",
+  "_shasum": "ed9964d6be054efb11abe1218cb4983d69485a12",
+  "_shrinkwrap": null,
+  "_spec": "react-native-audio-streamer@git+https://github.com/zk2401/react-native-audio-steamer-exo-V1.git",
+  "_where": "/Users/zk/reactNativeProject/learn-app",
+  "author": {
+    "name": "IndieCast.fm"
+  },
+  "bugs": {
+    "url": "https://github.com/indiecastfm/react-native-audio-streamer/issues"
+  },
+  "dependencies": {},
+  "description": "A react-native audio streaming module which works on both iOS & Android",
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "jest": "17.0.3",
+    "react-native": "0.37.0",
+    "react-test-renderer": "15.4.1"
+  },
+  "gitHead": "97119264c3182b3b9d681a4f323fcb39adc6d765",
+  "homepage": "https://github.com/indiecastfm/react-native-audio-streamer#readme",
+  "jest": {
+    "preset": "react-native"
+  },
+  "keywords": [
+    "react-native",
+    "streaming",
+    "audio",
+    "ios",
+    "android",
+    "media",
+    "player"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-audio-streamer",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.31.0"
+  },
+  "readme": "# react-native-audio-streamer\n\nA react-native audio streaming module which works on both iOS & Android\n\niOS streaming is based on [DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer)\n\nAndroid streaming is based on [ExoPlayer](https://github.com/google/ExoPlayer)\n\n## Installation\n\n`npm install react-native-audio-streamer --save`\n\nThen run the following command to link to iOS & Android project\n\n`react-native link react-native-audio-streamer`\n\n## Usage\n\n### Basic\n\n```javascript\nimport RNAudioStreamer from 'react-native-audio-streamer';\n\nRNAudioStreamer.setUrl('http://lacavewebradio.chickenkiller.com:8000/stream.mp3')\nRNAudioStreamer.play()\nRNAudioStreamer.pause()\nRNAudioStreamer.seekToTime(16) //seconds\nRNAudioStreamer.duration((err, duration)=>{\n if(!err) console.log(duration) //seconds\n})\nRNAudioStreamer.currentTime((err, currentTime)=>{\n if(!err) console.log(currentTime) //seconds\n})\n\n// Player Status:\n// - PLAYING\n// - PAUSED\n// - STOPPED\n// - FINISHED\n// - BUFFERING\n// - ERROR\nRNAudioStreamer.status((err, status)=>{\n if(!err) console.log(status)\n})\n\n```\n\n### Status Change Observer\n\n```javascript\nconst {\n  DeviceEventEmitter\n} = 'react-native'\n\n// Status change observer\ncomponentDidMount() {\n    this.subscription = DeviceEventEmitter.addListener('RNAudioStreamerStatusChanged',this._statusChanged.bind(this))\n}\n\n// Player Status:\n// - PLAYING\n// - PAUSED\n// - STOPPED\n// - FINISHED\n// - BUFFERING\n// - ERROR\n_statusChanged(status) {\n  // Your logic\n}\n```\n\n\n\n## Milestones\n\n- Audio caching\n- Buffering ratio\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indiecastfm/react-native-audio-streamer.git"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "version": "0.0.9"
+}
